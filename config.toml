@@ -1,0 +1,300 @@
+baseURL = "https://leoq7.com/"
+languageCode = "en-us"
+title = "Qi Qin"
+
+# Enable case-sensitive https://www.jvt.me/posts/2019/11/10/hugo-case-sensitive-urls/
+disablePathToLower = true
+
+theme = "LoveIt"
+
+[params]
+  # LoveIt theme version
+  version = "0.2.X"
+  description = "Qi Qin's Homepage"
+  defaultTheme = "auto"
+  fingerprint = "sha256"
+  dateFormat = "2006-01-02"
+  # website images for Open Graph and Twitter Cards
+  images = ["logo.png"]
+  hasCJKLanguage = true
+
+  # LoveIt App icon config
+  [params.app]
+    # optional site title override for the app when added to an iOS home screen or Android launcher
+    title = "Qi Qin"
+    # whether to omit favicon resource links
+    noFavicon = false
+    # modern SVG favicon to use in place of older style .png and .ico files
+    svgFavicon = ""
+    # Android browser theme color
+    themeColor = "#ffffff"
+    # Safari mask icon color
+    # iconColor = "#000000"
+    # Windows v8-10 tile color
+    tileColor = "#da532c"
+
+  # LoveIt Search config
+  [params.search]
+    enable = true
+    # type of search engine ("lunr", "algolia")
+    type = "lunr"
+    # max index length of the chunked content
+    contentLength = 4000
+    # placeholder of the search bar
+    placeholder = ""
+    # LoveIt NEW | 0.2.1 max number of results length
+    maxResultLength = 10
+    # LoveIt NEW | 0.2.3 snippet length of the result
+    snippetLength = 30
+    # LoveIt NEW | 0.2.1 HTML tag name of the highlight part in results
+    highlightTag = "em"
+    # LoveIt NEW | 0.2.4 whether to use the absolute URL based on the baseURL in search index
+    absoluteURL = false
+
+  # Header config
+  [params.header]
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
+  #   # LoveIt NEW | 0.2.0 Header title config
+  #   [params.header.title]
+  #     # whether to use typeit animation for title name
+  #     typeit = false
+
+  # Footer config
+  [params.footer]
+    enable = true
+    # LoveIt NEW | 0.2.0 Custom content (HTML format is supported)
+    custom = ''
+    # LoveIt NEW | 0.2.0 whether to show Hugo and theme info
+    hugo = false
+    # LoveIt NEW | 0.2.0 whether to show copyright info
+    copyright = true
+    # LoveIt NEW | 0.2.0 whether to show the author
+    author = true
+    # Site creation time
+    since = 2020
+    # ICP info only in China (HTML format is supported)
+    # icp = '<a rel="license external nofollow noopener noreffer" href="http://beian.miit.gov.cn/" target="_blank">津ICP备2021003731号</a>'
+    icp = ''
+    # license info (HTML format is supported)
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+  # LoveIt NEW | 0.2.0 Section (all posts) page config
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    rss = 10
+
+  # Home page config
+  [params.home]
+    # LoveIt NEW | 0.2.0 amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      # gravatarEmail = "superobertking@icloud.com"
+      # URL of avatar shown in home page
+      avatarURL = "images/avatar.jpg"
+      # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+      # title = "Yuzhuo Jing"
+      # subtitle shown in home page
+      # subtitle = "First-year Computer Science Ph.D. student at Johns Hopkins University"
+      # whether to use typeit animation for subtitle
+      typeit = false
+      # whether to show social links
+      social = true
+      # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [params.home.posts]
+      enable = false
+      # special amount of posts in each home posts page
+      paginate = 1
+
+  # Social config about the author
+  [params.social]
+    GitHub = "LeoQ7"
+    Linkedin = "LeoQ7"
+    Twitter = "LeoQ7_"
+    Instagram = ""
+    Facebook = ""
+    Telegram = "LeoQ7"
+    Email = "dummy"
+    Steam = "hisensailer"
+    RSS = true # LoveIt NEW | 0.2.0
+
+  # LoveIt CHANGED | 0.2.0 Page config
+  [params.page]
+    twemoji = true
+    # whether to enable lightgallery
+    lightgallery = false
+    # LoveIt NEW | 0.2.0 whether to enable the fontawesome extended syntax
+    fontawesome = false
+    # whether to show link to Raw Markdown content of the content
+    linkToMarkdown = false
+    # LoveIt NEW | 0.2.4 whether to show the full text content in RSS
+    rssFullText = false
+    # LoveIt NEW | 0.2.0 Table of the contents config
+    [params.page.toc]
+      # whether to enable the table of the contents
+      enable = true
+      # LoveIt NEW | 0.2.9 whether to keep the static table of the contents in front of the post
+      keepStatic = false
+      # whether to make the table of the contents in the sidebar automatically collapsed
+      auto = true
+    # LoveIt CHANGED | 0.2.0 KaTeX mathematical formulas
+    [params.page.math]
+      enable = true
+      # KaTeX extension copy_tex
+      copyTex = false
+      # KaTeX extension mhchem
+      mhchem = false
+    # LoveIt NEW | 0.2.0 Code config
+    [params.page.code]
+      # whether to show the copy button of the code block
+      copy = false
+      # the maximum number of lines of displayed code by default
+      maxShownLines = 50
+    # LoveIt CHANGED | 0.2.0 social share links in post page
+    [params.page.share]
+      enable = true
+      Twitter = true
+    # LoveIt CHANGED | 0.2.0 Comment config
+    [params.page.comment]
+      enable = true
+      # LoveIt NEW | 0.2.5 Utterances comment config
+      [params.page.comment.utterances]
+        enable = true
+        # owner/repo
+        repo = "LeoQ7/LeoQ7-comments"
+        issueTerm = "og:title"
+        label = ""
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
+    # LoveIt CHANGED | 0.2.10 Page SEO config
+    #[params.page.seo]
+    #  # image URL
+    #  images = []
+    #  # Publisher info
+    #  [params.page.seo.publisher]
+    #    name = ""
+    #    logoUrl = ""
+
+
+  ## LoveIt NEW | 0.2.10 Site SEO config
+  #[params.seo]
+  #  # image URL
+  #  image = ""
+  #  # thumbnail URL
+  #  thumbnailUrl = ""
+
+# Markup related config in Hugo
+[markup]
+  # Syntax Highlighting
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    # false is a necessary configuration
+    # (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
+      unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+# Author config
+[author]
+  name = "Qi Qin"
+  # email = "me@osdi.dev"
+  link = "/"
+
+# Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
+[Permalinks]
+  posts = ":year/:month/:filename"
+  # posts = "posts/:filename"
+  # posts = ":filename"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/"
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    title = ""
+    weight = 3
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    title = ""
+    weight = 4
+  #[[menu.main]]
+  #  identifier = "cv"
+  #  name = "CV"
+  #  url = "/CV.pdf"
+  #  title = ""
+  #  weight = 5
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Blogs"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 6
+  #[[menu.main]]
+  #  identifier = "tags"
+  #  pre = ""
+  #  post = ""
+  #  name = "Tags"
+  #  url = "/tags/"
+  #  title = ""
+  #  weight = 7
+  [[menu.main]]
+    identifier = "links"
+    pre = ""
+    post = ""
+    name = "Links"
+    url = "/links/"
+    title = ""
+    weight = 8
+  #[[menu.main]]
+  #  identifier = "categories"
+  #  pre = ""
+  #  post = ""
+  #  name = "Categories"
+  #  url = "/categories/"
+  #  title = ""
+  #  weight = 9

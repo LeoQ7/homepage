@@ -1,0 +1,41 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+    {{- $params := .Scratch.Get "params" -}}
+    <div class="page single special">
+        {{- /* Title */ -}}
+        <!-- <h1 class="single-title animated pulse faster"> -->
+        <h1 class="single-title">
+            {{- .Title -}}
+        </h1>
+
+        {{- /* Subtitle */ -}}
+        {{- with $params.subtitle -}}
+            <h2 class="single-subtitle">{{ . }}</h2>
+        {{- end -}}
+
+        {{- /* Content */ -}}
+        <div class="content" id="content">
+            {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+        </div>
+
+        {{- if eq .Params.specialShowMod true -}}
+            <div class="post-footer" id="post-footer">
+                <div class="post-info">
+                    <div class="post-info-line">
+                        <div class="post-info-mod">
+                            <span>
+                                {{- with .Site.Params.dateformat | default "2006-01-02" | .Lastmod.Format -}}
+                                    {{- dict "Date" . | T "updatedOnDate" -}}
+                                {{- end -}}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{- end -}}
+
+        {{- /* Comment */ -}}
+        {{- partial "comment.html" . -}}
+    </div>
+{{- end -}}

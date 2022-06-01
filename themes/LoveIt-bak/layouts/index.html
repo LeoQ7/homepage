@@ -1,0 +1,81 @@
+{{- define "content" -}}
+    {{- $params := .Scratch.Get "params" -}}
+    {{- $profile := .Site.Params.home.profile -}}
+    {{- $posts := .Site.Params.home.posts -}}
+
+    <div class="page home"{{ if ne $posts.enable false }} posts{{ end }}>
+        {{- /* Profile */ -}}
+        {{- if ne $profile.enable false -}}
+            {{- partial "home/profile.html" . -}}
+        {{- end -}}
+
+        {{- /* Content */ -}}
+        {{- if .Content -}}
+            <div class="single">
+                <div class="content" id="content">
+                    {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+                </div>
+
+                {{- if eq .Params.specialShowMod true -}}
+                    <div class="post-footer" id="post-footer">
+                        <div class="post-info">
+                            <div class="post-info-line">
+                                <div class="post-info-mod">
+                                    <span>
+                                        {{- with .Site.Params.dateformat | default "2006-01-02" | .Lastmod.Format -}}
+                                            {{- dict "Date" . | T "updatedOnDate" -}}
+                                        {{- end -}}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{- end -}}
+            </div>
+        {{- end -}}
+
+        {{- /* Posts */ -}}
+        {{- if ne $posts.enable false | and .Site.RegularPages -}}
+            {{- /* Paginate */ -}}
+            {{- $pages := where .Site.RegularPages "Type" "posts" -}}
+            {{- if .Site.Params.page.hiddenFromHomePage -}}
+                {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
+            {{- else -}}
+                {{- $pages = where $pages "Params.hiddenfromhomepage" "!=" true -}}
+            {{- end -}}
+            {{- with $posts.paginate | default .Site.Params.paginate -}}
+                {{- $pages = $.Paginate $pages . -}}
+            {{- else -}}
+                {{- $pages = .Paginate $pages -}}
+            {{- end -}}
+            {{- range $pages.Pages -}}
+                {{- .Render "summary" -}}
+            {{- end -}}
+            {{- partial "paginator.html" . -}}
+        {{- end -}}
+
+        {{- /* Comment */ -}}
+        {{- $comment := .Scratch.Get "comment" | default dict -}}
+        {{- $commentConfig := dict -}}
+        {{- if $comment.enable -}}
+          <div id="comments">
+            {{- /* Utterances Comment System */ -}}
+            {{- $utterances := $comment.utterances | default dict -}}
+            {{- if $utterances.enable -}}
+                <div id="utterances"></div>
+                {{- $commentConfig = dict "repo" $utterances.repo | dict "utterances" | merge $commentConfig -}}
+                {{- $commentConfig = "homepage" | default "pathname" | dict "issueTerm" | dict "utterances" | merge $commentConfig -}}
+                {{- $commentConfig = dict "label" $utterances.label | dict "utterances" | merge $commentConfig -}}
+                {{- $commentConfig = $utterances.lightTheme | default "github-light" | dict "lightTheme" | dict "utterances" | merge $commentConfig -}}
+                {{- $commentConfig = $utterances.darkTheme | default "github-dark" | dict "darkTheme" | dict "utterances" | merge $commentConfig -}}
+                <noscript>
+                    Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">Utterances</a>.
+                </noscript>
+            {{- end -}}
+
+          </div>
+          {{- dict "comment" $commentConfig | dict "config" | merge (.Scratch.Get "this") | .Scratch.Set "this" -}}
+        {{- end -}}
+
+    </div>
+{{- end -}}
