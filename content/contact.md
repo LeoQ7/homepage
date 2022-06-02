@@ -11,9 +11,9 @@ specialShowMod: true
 
 ### Email
 
-Work: <a href='javascript:void(0)' id='wm'>cWlucWlAc2hhbmdoYWl0ZWNoLmVkdS5jbg==</a> [[GPG](/files/shanghaitech.gpg)]
+Work: <a href='javascript:void(0)' id='wm'>cWlucWlAc2hhbmdoYWl0ZWNoLmVkdS5jbg==</a> \[[GPG](/files/shanghaitech.gpg)\]
 
-Personal: <a href='javascript:void(0)' id='pm'>cTcxOTk4QGdtYWlsLmNvbQ==</a> [[GPG](/files/gmail.gpg)]
+Personal: <a href='javascript:void(0)' id='pm'>cTcxOTk4QGdtYWlsLmNvbQ==</a> \[[GPG](/files/gmail.gpg)\]
 
 {{< script >}}
 document.getElementById("wm").addEventListener("click", function(event) {
