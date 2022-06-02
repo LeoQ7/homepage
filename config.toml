@@ -12,7 +12,7 @@ theme = "LoveIt"
   version = "0.2.X"
   description = "Qi Qin's Homepage"
   defaultTheme = "auto"
-  fingerprint = "sha256"
+  fingerprint = ""
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
   images = ["logo.png"]
