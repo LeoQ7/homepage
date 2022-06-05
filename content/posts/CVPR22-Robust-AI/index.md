@@ -86,11 +86,11 @@ For other samples, we directly utilize the metrics used for square detection as 
 
 We constructed the dataset locally and evaluated our method. 
 
-- For Patch attack, the local F1 score on all adversarial examples is `0.2792`, where the precision is `0.9829` and the recall is `0.1627`. The F1 score for patch is `0.9812`, where the recall of patch adv is `0.9795`.
+- For Patch attack, the local F1 score on all adversarial examples is `0.2792`, where the precision is `0.9829` and the recall is `0.1627`. The F1 score for Patch is `0.9812`, where the recall of Patch adv is `0.9795`.
 
-- For Square attack, the local F1 score on all adversarial examples is `0.2729`, where the precision is `0.932` and the recall is `0.1609`. The F1 score for patch is `0.8007`, where the recall of patch adv is `0.8614`.
+- For Square attack, the local F1 score on all adversarial examples is `0.2729`, where the precision is `0.932` and the recall is `0.1609`. The F1 score for Sqaure is `0.8007`, where the recall of Square adv is `0.8614`.
 
-- For UAP or FGSM attack, the local F1 score on all adversarial examples is `0.478`, where the precision is `0.8483` and the recall is `0.3328`. The F1 score for patch is `0.8711`, where the recall of patch adv is `0.8951`.
+- For UAP or FGSM attack, the local F1 score on all adversarial examples is `0.478`, where the precision is `0.8483` and the recall is `0.3328`. The F1 score for UAP or FGSM is `0.8711`, where the recall of UAP or FGSM adv is `0.8951`.
 
 ## Reference
 
