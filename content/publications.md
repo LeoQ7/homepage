@@ -20,7 +20,7 @@ specialShowMod: true
 
 ### 2022
 
-- **Preventing Timing Side-Channels via Security-Aware Just-In-Time Compilation** <br>
+- **DeJITLeak: Eliminating JIT-Induced Timing Side-Channel Leaks** <br>
     **Qi Qin**, JulianAndres JiYang, Fu Song, Taolue Chen, Xinyu Xing<br>
     ESEC/FES 2022 (to be appear)<br>
-    [[Paper]](https://arxiv.org/abs/2202.13134) [[Code]](https://github.com/dejitleak)
+    [[Preprint]](https://arxiv.org/abs/2202.13134) [[Code]](https://github.com/dejitleak)
