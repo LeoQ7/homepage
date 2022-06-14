@@ -11,7 +11,7 @@ specialShowMod: true
 
 ## Books
 
-- [Handbook for CTHers](https://link.springer.com/book/10.1007/978-981-19-0336-6). Nu1L Team. Springer Singapore, 2022.
+- [Handbook for CTFers](https://link.springer.com/book/10.1007/978-981-19-0336-6). Nu1L Team. Springer Singapore, 2022.
 - [Handbook for CTFers (Chinese)](https://book.nu1l.com/). Nu1L Team. Publishing House of Electronics Industry, 2020.
 
 
