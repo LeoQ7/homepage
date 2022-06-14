@@ -41,14 +41,18 @@ I obtained my B.E. degree in Computer Science from [ShanghaiTech University](htt
 
 <style type="text/css">.date { width: 90px; font-family:Trebuchet MS; font-style: italic; float: left }</style>
 
+- <span class="date">Jun. 2022</span>My first paper DeJITLeak is accepted by ESEC/FSE 2022!
 - <span class="date">May. 2022</span> Straw Hat team is qualified for DEF CON CTF again
 - <span class="date">Feb. 2022</span> Finally arrived at Evanston and started my visiting
 - <span class="date">Jan. 2022</span> I finished all my courses at ShanghaiTech with a major GPA of 3.95/4 :p
 - <span class="date">Dec. 2021</span> I received the distinguished TA award
+
+<!-- {{< detail "Load more">}}
 - <span class="date">Sep. 2021</span> I'm TAing the course SI100B Introduction to Computer Science this semester
 - <span class="date">Aug. 2021</span> Nu1L team hit 7th at DEF CON CTF 2021 Finals
 - <span class="date">Sep. 2020</span> I'm TAing the course CS152 Applied Cryptography this semester
 - <span class="date">Sep. 2020</span> My Master life begins at ShanghaiTech
+{{< /detail >}} -->
 
 <script>
   document.querySelector("a[href='mailto:dummy']").addEventListener("click", function(event) {
