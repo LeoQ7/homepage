@@ -13,7 +13,7 @@ specialShowMod: true
 
 - [Yuzhuo Jing](https://osdi.dev/)
 - [Yintao Xu](https://www.liubai01.cn/)
-- [HaominStone](http://haominstone.com)
+- [HaominStone](https://haominstone.github.io/)
 - [Yimin Tang](https://sites.google.com/view/yimintang)
 
 ## CTF
