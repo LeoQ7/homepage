@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 date: 2020-10-03T03:40:15+08:00
-lastMod: 2020-11-21T04:13:10+0800
+lastMod: 2022-08-08T04:13:10+0800
 draft: false
 description: "Publications by Qi Qin"
 summary: "Publications by Qi Qin"
@@ -22,5 +22,5 @@ specialShowMod: true
 
 - **DeJITLeak: Eliminating JIT-Induced Timing Side-Channel Leaks** <br>
     **Qi Qin**, JulianAndres JiYang, Fu Song, Taolue Chen, Xinyu Xing<br>
-    ESEC/FES 2022 (to appear)<br>
+    ESEC/FSE 2022 (to appear)<br>
     [[Preprint]](https://arxiv.org/abs/2202.13134) [[Code]](https://github.com/dejitleak)
