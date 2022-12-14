@@ -22,5 +22,5 @@ specialShowMod: true
 
 - **DeJITLeak: Eliminating JIT-Induced Timing Side-Channel Leaks** <br>
     **Qi Qin**, JulianAndres JiYang, Fu Song, Taolue Chen, Xinyu Xing<br>
-    ESEC/FSE 2022 (to appear)<br>
+    ESEC/FSE 2022<br>
     [[Preprint]](https://arxiv.org/abs/2202.13134) [[Code]](https://github.com/dejitleak)
