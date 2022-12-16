@@ -73,7 +73,7 @@ In order to set `q2` to true, we need to provide a `guess: u128` satisfying `pow
 
 #### q3: add
 
-The sub-problem `q3` is more interesting. Similar to other checked math implementation, the [Shl and Shr operations in Move language](https://github.com/move-language/move/blob/main/language/move-vm/runtime/src/interpreter.rs#L1945-L1952) will raise an [ARITHMETIC_ERROR](https://github.com/move-language/move/blob/main/language/move-vm/types/src/values/values_impl.rs#L1568-L1604) if the shift amount is greater than or equal to the bit width of the operand as this is an undefined behavior. And the `Shl` operations won't raise `ARITHMETIC_ERROR` if there is an overflow. So we can shift the current balance $10$ to the left by more than $8$ bits to set the balance to $0$.
+The sub-problem `q3` is more interesting. Similar to other checked arithmetic implementation, the [Shl and Shr operations in Move language](https://github.com/move-language/move/blob/main/language/move-vm/runtime/src/interpreter.rs#L1945-L1952) will raise an [ARITHMETIC_ERROR](https://github.com/move-language/move/blob/main/language/move-vm/types/src/values/values_impl.rs#L1568-L1604) if the shift amount is greater than or equal to the bit width of the operand as this is a cpu-level undefined behavior. And the `Shl` operations won't raise `ARITHMETIC_ERROR` if there is an overflow. So we can shift the current balance $10$ to the left by more than $8$ bits to set the balance to $0$.
 
 ### Exploit contract
 
