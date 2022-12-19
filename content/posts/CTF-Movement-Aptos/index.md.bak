@@ -22,7 +22,12 @@ lightgallery: true
 
 ## Preface
 
-It's been half a year since I last wrote a blog. During that time, I've learned a lot about Web3 security, including Solana and Aptos. Last weekend, I participated in the CTF MOVEment with Aptos Dec 2022 jointly organized by MoveBit, Aptos, ChainFlag and OtterSec, and scored two first-bloods and two second-bloods in the four challenges except the sanity-check, ranking first in the end. In this post, I will briefly introduce the solutions to the five challenges.
+It's been half a year since I last wrote a blog. During that time, I've learned a lot about Web3 security, including Solana and Aptos. Before learning Solana and Aptos, I had some exposure to Ethereum during my freshman year. In my opinion, Solana and Aptos not only have a significant improvement in TPS over Ethereum, but the contracts written in Rust and Move are more secure; in terms of user-friendliness, the Move language is easier to use and less error-prone than Rust and Anchor. Last weekend, I participated in the CTF MOVEment with Aptos Dec 2022 jointly organized by MoveBit, Aptos, ChainFlag and OtterSec, and scored two first-bloods and two second-bloods in the four challenges except the sanity-check, ranking first in the end. In this post, I will briefly introduce the solutions to the five challenges.
+
+<center class="img">
+    <img src="./evolution.webp" width="90%">
+    <p align="center" style="font-size:12px;">Image by <a src=https://medium.com/@kklas/smart-contract-development-move-vs-rust-4d8f84754a8f>Krešimir Klas</a></p>
+</center>
 
 ## Challenge 1: checkin
 
