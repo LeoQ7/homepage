@@ -11,11 +11,11 @@ specialShowMod: true
 
 ## Friends
 
-- [Yuzhuo Jing](https://osdi.dev/)
-- [Yintao Xu](https://www.liubai01.cn/)
 - [HaominStone](https://haominstone.github.io/)
 - [Yimin Tang](https://sites.google.com/view/yimintang)
+- [Yintao Xu](https://www.liubai01.cn/)
 - [Yuhang Wu](https://yuhangw.blog/)
+- [Yuzhuo Jing](https://osdi.dev/)
 - [Zhenpeng Lin](https://zplin.me/)
 
 ## CTF
