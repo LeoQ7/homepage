@@ -24,3 +24,8 @@ specialShowMod: true
     **Qi Qin**, JulianAndres JiYang, Fu Song, Taolue Chen, Xinyu Xing<br>
     ESEC/FSE 2022<br>
     [[Paper]](https://dl.acm.org/doi/abs/10.1145/3540250.3549150) [[Code]](https://github.com/dejitleak)
+
+- **AIRS: Explanation for Deep Reinforcement Learning based Security Applications** <br>
+    Jiahao Yu, Wenbo Guo, **Qi Qin**, Gang Wang, Ting Wang, Xinyu Xing<br>
+    USENIX Security 2023<br>
+    <!-- [[Paper]](https://dl.acm.org/doi/abs/10.1145/3540250.3549150) -->
