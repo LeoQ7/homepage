@@ -11,7 +11,8 @@ specialShowMod: true
 
 ## Friends
 
-- [HaominStone](https://haominstone.github.io/)
+- [Crazyman Army](https://crazymanarmy.github.io/)
+- [Haomin Stone](https://haominstone.github.io/)
 - [Yimin Tang](https://sites.google.com/view/yimintang)
 - [Yintao Xu](https://www.liubai01.cn/)
 - [Yuhang Wu](https://yuhangw.blog/)
