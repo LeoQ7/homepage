@@ -32,7 +32,7 @@ This weekend, I participated in the [pbctf 2023](https://ctf.pbctf.com/) and got
 - Score: 383
 {{< /admonition >}}
 
-In this challenge, we are given a `message.mv` file, which is a serialized Move module. As this is a reverse challenge, we need to reverse the module, analyze the algorithm that checks the flag and finally calucate the flag.
+In this challenge, we are given a `message.mv` file, which is a serialized Move module. As this is a reverse challenge, we need to reverse the module, analyze the algorithm that checks the flag and finally calculate the flag.
 
 ## Disassemble the module
 
@@ -167,7 +167,7 @@ B3:
 	77: Pop
 ```
 
-Recall that in the previous code snippet, the flag is stored in `loc40`, so the logic of the code above is checking if $(flag[0] \ll 6 | flag[1] \ll 5 | flag[2] \ll 4 | flag[3] \ll 3 | flag[4] \ll 2 | flag[5] \ll 1 | flag[len(flag)]) \oplus  29670774015617385 == 7049012482871828$, where $flag[i]$ is the $i$-th byte of the flag. If the condition is not satisfied, the program will jump to the basic block `B3` and trigger an error.
+Recall that in the previous code snippet, the flag is stored in `loc40`, so the logic of the code above is checking if $(flag[0] \ll 48 | flag[1] \ll 40 | flag[2] \ll 32 | flag[3] \ll 24 | flag[4] \ll 16 | flag[5] \ll 8 | flag[len(flag)]) \oplus  29670774015617385 == 7049012482871828$, where $flag[i]$ is the $i$-th byte of the flag. If the condition is not satisfied, the program will jump to the basic block `B3` and trigger an error.
 
 By solving the above equation, we can get the flag format: flag[0:6] = 'pbctf{' and flag[-1] = '}'.
 
