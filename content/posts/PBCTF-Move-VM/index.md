@@ -1,8 +1,8 @@
 ---
 weight: 5
 title: "PBCTF 2023 Move VM Writeup"
-date: 2022-12-14T17:55:28+08:00
-lastmod: 2022-12-14T17:55:28+08:00
+date: 2023-02-19T17:55:28+08:00
+lastmod: 2023-02-19T17:55:28+08:00
 draft: false
 author: "Qi Qin"
 authorLink: "https://leoq7.com"
