@@ -236,6 +236,11 @@ theme = "LoveIt"
   # posts = "posts/:filename"
   # posts = ":filename"
 
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.7
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
