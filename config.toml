@@ -237,7 +237,7 @@ theme = "LoveIt"
   # posts = ":filename"
 
 [sitemap]
-  changefreq = 'daily'
+  changefreq = 'monthly'
   filename = 'sitemap.xml'
   priority = 0.7
 
