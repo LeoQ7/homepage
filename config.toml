@@ -4,6 +4,7 @@ title = "Qi Qin"
 
 # Enable case-sensitive https://www.jvt.me/posts/2019/11/10/hugo-case-sensitive-urls/
 disablePathToLower = true
+enableRobotsTXT = true
 
 theme = "LoveIt"
 
