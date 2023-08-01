@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 date: 2020-10-03T03:40:15+08:00
-lastMod: 2022-08-08T04:13:10+0800
+lastMod: 2023-08-01T04:13:10+0800
 draft: false
 description: "Publications by Qi Qin"
 summary: "Publications by Qi Qin"
@@ -21,7 +21,7 @@ specialShowMod: true
 - **AIRS: Explanation for Deep Reinforcement Learning based Security Applications** <br>
     Jiahao Yu, Wenbo Guo, **Qi Qin**, Gang Wang, Ting Wang, Xinyu Xing<br>
     USENIX Security 2023<br>
-    <!-- [[Paper]](https://dl.acm.org/doi/abs/10.1145/3540250.3549150) -->
+    [[Paper]](https://www.usenix.org/conference/usenixsecurity23/presentation/yu-jiahao)
 
 - **DeJITLeak: Eliminating JIT-Induced Timing Side-Channel Leaks** <br>
     **Qi Qin**, JulianAndres JiYang, Fu Song, Taolue Chen, Xinyu Xing<br>
