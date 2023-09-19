@@ -41,12 +41,14 @@ I obtained my M.E. degree in Computer Science from [ShanghaiTech University](htt
 
 <style type="text/css">.date { width: 90px; font-family:Trebuchet MS; font-style: italic; float: left }</style>
 
-- <span class="date">May. 2022</span> I joined sec3 as a full-time security researcher!
+- <span class="date">Sep. 2023</span> I won first place in MetaTrust CTF - Sui track
+- <span class="date">Aug. 2023</span> Straw Hat team hit 5th at DEF CON CTF 2023 Final
+- <span class="date">May. 2023</span> I joined sec3 as a full-time security researcher!
+
+<!-- {{< detail "Load more">}}
 - <span class="date">Dec. 2022</span> I won first place in CTF MOVEment (Aptos)
 - <span class="date">Aug. 2022</span> Straw Hat team hit 7th at DEF CON CTF 2022 Final
 - <span class="date">Jun. 2022</span> My first paper DeJITLeak is accepted by ESEC/FSE 2022!
-
-<!-- {{< detail "Load more">}}
 - <span class="date">Sep. 2021</span> I'm TAing the course SI100B Introduction to Computer Science this semester
 - <span class="date">Aug. 2021</span> Nu1L team hit 7th at DEF CON CTF 2021 Finals
 - <span class="date">Sep. 2020</span> I'm TAing the course CS152 Applied Cryptography this semester
