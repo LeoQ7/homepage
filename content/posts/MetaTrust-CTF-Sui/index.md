@@ -22,7 +22,7 @@ lightgallery: true
 
 ## Preface
 
-Last week, I participated solo in the [2023 MetaTrust Web3 Security CTF](https://ctf.metatrust.io/). In addition to the traditional Solidity challenges, Mysten Labs and OtterSec provided four Sui Move challenges as a separate category. Fortunately, I managed to get two first bloods and two second bloods, placing me first in this specific track. Apart from these four challenges, there was also an intriguing challenge involving Move bytecode reverse engineering. Since I have previously written several related writeups, I won't delve into it here. Interested readers can refer to the excellent write-ups by [ashleyhsu.eth](https://ashirleyshe.github.io/p/metatrust-ctf-writeup-bytesmove/) and [jinu.eth](https://x.com/lj1nu/status/1702565727658742223?s=20).
+Last week, I participated solo in the [2023 MetaTrust Web3 Security CTF](https://ctf.metatrust.io/). In addition to the traditional Solidity challenges, Mysten Labs and OtterSec provided four Sui Move challenges as a separate category. Fortunately, I managed to get two first bloods and two second bloods, placing me first in this specific track. Apart from these four challenges, there was also an intriguing challenge involving Move bytecode reverse engineering. Since I have previously written several related writeups, I won't delve into it here. Interested readers can refer to the excellent writeups by [ashleyhsu.eth](https://ashirleyshe.github.io/p/metatrust-ctf-writeup-bytesmove/) and [jinu.eth](https://x.com/lj1nu/status/1702565727658742223?s=20).
 
 ## Challenge 1: Hello World
 
