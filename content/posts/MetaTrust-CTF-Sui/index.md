@@ -1,12 +1,12 @@
 ---
 weight: 5
-title: "CTF MOVEment with Aptos Dec 2022 Writeup"
-date: 2022-12-14T17:55:28+08:00
-lastmod: 2022-12-14T17:55:28+08:00
+title: "2023 MetaTrust Web3 Security CTF Sui Challenges Writeup"
+date: 2023-09-19T17:55:28+08:00
+lastmod: 2023-09-19T17:55:28+08:00
 draft: false
 author: "Qi Qin"
 authorLink: "https://leoq7.com"
-description: "Writeup for CTF MOVEment with Aptos Dec 2022"
+description: "Writeup for 2023 MetaTrust Web3 Security CTF Sui Challenges"
 images: []
 # resources:
 # - name: "featured-image"
