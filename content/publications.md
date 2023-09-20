@@ -21,7 +21,7 @@ specialShowMod: true
 - **AIRS: Explanation for Deep Reinforcement Learning based Security Applications** <br>
     Jiahao Yu, Wenbo Guo, **Qi Qin**, Gang Wang, Ting Wang, Xinyu Xing<br>
     USENIX Security 2023<br>
-    [[Paper]](https://www.usenix.org/conference/usenixsecurity23/presentation/yu-jiahao)
+    [[Paper]](https://www.usenix.org/conference/usenixsecurity23/presentation/yu-jiahao) [[Code]](https://github.com/sherdencooper/AIRS)
 
 - **DeJITLeak: Eliminating JIT-Induced Timing Side-Channel Leaks** <br>
     **Qi Qin**, JulianAndres JiYang, Fu Song, Taolue Chen, Xinyu Xing<br>
