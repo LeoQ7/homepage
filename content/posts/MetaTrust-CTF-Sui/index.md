@@ -355,7 +355,7 @@ let create_args_2 = SuiValue::MoveValue(MoveValue::U64(random_byte as u64));
 let create_args_3 = SuiValue::MoveValue(MoveValue::U8(10));
 ```
 
-Is there a more elegant way to obtain the seed without resorting to brute-force cracking? The answer is yes. Although Move language restricts us from accessing fields defined in the Foo module within the Bar module under normal circumstances, there's a clever workaround, which involves using the BCS encoding.
+Is there a more elegant way to obtain the seed without resorting to brute-force cracking? The answer is yes. Although Move language restricts us from accessing struct's fields defined in the Foo module within the Bar module under normal circumstances, there's a clever workaround, which involves using the BCS encoding.
 
 ```rust
 /* https://github.com/MetaTrustLabs/ctf/blob/master/coinFlip/framework/chall/sources/coin_flip.move#L22-L35 */
