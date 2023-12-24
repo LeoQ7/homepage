@@ -27,7 +27,7 @@ lightgallery: false
 
 ## Bio
 
-I am a Security Researcher at [sec3](https://www.sec3.dev/), where I focus on conducting in-depth security research in the realms of Solana, Move, and Rust.
+I am a Security Researcher at [Sec3](https://www.sec3.dev/), where I focus on conducting in-depth security research in the realms of Solana, Move, and Rust.
 
 My research interest spans broadly in computer security, including program analysis, AI security and Web3 Security.
 
@@ -43,7 +43,7 @@ I obtained my M.E. degree in Computer Science from [ShanghaiTech University](htt
 
 - <span class="date">Sep. 2023</span> I won first place in MetaTrust CTF - Sui track
 - <span class="date">Aug. 2023</span> Straw Hat team hit 5th at DEF CON CTF 2023 Final
-- <span class="date">May. 2023</span> I joined sec3 as a full-time security researcher!
+- <span class="date">May. 2023</span> I joined Sec3 as a full-time security researcher!
 
 <!-- {{< detail "Load more">}}
 - <span class="date">Dec. 2022</span> I won first place in CTF MOVEment (Aptos)
