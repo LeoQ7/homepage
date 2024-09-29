@@ -26,7 +26,7 @@ The TON CTF 2024, sponsored by the TON Foundation and organized by Tonbit and TO
 
 What made this CTF unique was that all the challenges were written in Tact, a high-level language designed for the TON ecosystem. Tact compiles down to Func, another programming language, which then further compiles into Fift and finally down to bytecode for the VM. While I had previously dabbled with Func, this was my first time working with Tact, and I picked up quite a few new things along the way.
 
-## The Challenges of TON CTF vs. Other Blockchain CTFs
+## The Challenges of TON CTF vs. Other Web3 CTFs
 
 Compared to other Web3 CTFs, the TON ecosystem presents unique challenges. First, the tooling within the TON ecosystem is still in active developing. Additionally, due to TON's emphasis on speed, many operations, such as smart contract calls, are asynchronous. Finally, all the challenges in this CTF were deployed on a private chain, which introduced another layer of complexity when interacting with the contracts.
 
