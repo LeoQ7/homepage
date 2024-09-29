@@ -355,9 +355,7 @@ This observation reveals that for repeated point addition (i.e., curve multiplic
 
 $$x_Q = k \cdot x_P - (k - 1) \cdot x_0$$ where $Q = k \cdot P$.
 
-### Reducing to a DLP over $\mathbb{F}_p$
-
-Given this relationship, we can simplify the challenge to solving a discrete logarithm problem over $\mathbb{F}_p$. We are tasked with finding the multiplier `k` that satisfies:
+Given this relationship, we can simplify the challenge to doing integer division over $\mathbb{F}_p$. We are tasked with finding the multiplier `k` that satisfies:
 
 $$k = \frac{x_2 - x_0}{x_1 - x_0} \pmod{p}$$
 
