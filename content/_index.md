@@ -2,7 +2,7 @@
 title: "About"
 subtitle: ""
 date: 2020-10-04T00:57:20+08:00
-lastMod: 2023-08-01T05:48:40+0800
+lastMod: 2024-09-01T05:48:40+0800
 draft: false
 description: ""
 summary: ""
@@ -41,11 +41,13 @@ I obtained my M.E. degree in Computer Science from [ShanghaiTech University](htt
 
 <style type="text/css">.date { width: 90px; font-family:Trebuchet MS; font-style: italic; float: left }</style>
 
-- <span class="date">Sep. 2023</span> I won first place in MetaTrust CTF - Sui track
+- <span class="date">Aug. 2024</span> Straw Hat team hit 5th again at DEF CON CTF 2024 Final
+- <span class="date">Feb. 2024</span> I won first place in zkCTF
 - <span class="date">Aug. 2023</span> Straw Hat team hit 5th at DEF CON CTF 2023 Final
 - <span class="date">May. 2023</span> I joined Sec3 as a full-time security researcher!
 
 <!-- {{< detail "Load more">}}
+- <span class="date">Sep. 2023</span> I won first place in MetaTrust CTF - Sui track
 - <span class="date">Dec. 2022</span> I won first place in CTF MOVEment (Aptos)
 - <span class="date">Aug. 2022</span> Straw Hat team hit 7th at DEF CON CTF 2022 Final
 - <span class="date">Jun. 2022</span> My first paper DeJITLeak is accepted by ESEC/FSE 2022!

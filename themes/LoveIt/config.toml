@@ -201,7 +201,7 @@
   # 主页的社交信息设置
   [params.social]
     GitHub = "LeoQ7"
-    Linkedin = "LeoQ7"
+    # Linkedin = "LeoQ7"
     Twitter = "LeoQ7_"
     Instagram = ""
     Facebook = ""
@@ -238,7 +238,7 @@
     Hackernews = ""
     Kickstarter = ""
     Patreon = ""
-    Steam = "hisensailer"
+    # Steam = "hisensailer"
     Twitch = ""
     Strava = ""
     Skype = ""

@@ -121,13 +121,13 @@ theme = "LoveIt"
   # Social config about the author
   [params.social]
     GitHub = "LeoQ7"
-    Linkedin = "LeoQ7"
+    # Linkedin = "LeoQ7"
     Twitter = "LeoQ7_"
     # Instagram = ""
     # Facebook = ""
     Telegram = "LeoQ7"
     Email = "dummy"
-    Steam = "hisensailer"
+    # Steam = "hisensailer"
     Googlescholar = "Smkp1OwAAAAJ"
     RSS = true # LoveIt NEW | 0.2.0
 
