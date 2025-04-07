@@ -263,7 +263,7 @@
     Matrix = ""
     Bilibili = ""
     Email = "dummy"
-    RSS = true
+    RSS = false
 
   # Page global config
   # 文章页面全局配置

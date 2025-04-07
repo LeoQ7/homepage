@@ -264,12 +264,12 @@ theme = "LoveIt"
     url = "/contact/"
     title = ""
     weight = 4
-  #[[menu.main]]
-  #  identifier = "cv"
-  #  name = "CV"
-  #  url = "/CV.pdf"
-  #  title = ""
-  #  weight = 5
+  [[menu.main]]
+   identifier = "cv"
+   name = "CV"
+   url = "/CV.pdf"
+   title = ""
+   weight = 5
   [[menu.main]]
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons

@@ -2,7 +2,7 @@
 title: "About"
 subtitle: ""
 date: 2020-10-04T00:57:20+08:00
-lastMod: 2024-09-01T05:48:40+0800
+lastMod: 2025-04-08T05:48:40+0800
 draft: false
 description: ""
 summary: ""
@@ -27,13 +27,13 @@ lightgallery: false
 
 ## Bio
 
-I am a Security Researcher at [Sec3](https://www.sec3.dev/), where I focus on conducting in-depth security research in the realms of Solana, Move, and Rust.
+I am a Security Researcher at [Sec3](https://www.sec3.dev/), where I focus on conducting in-depth security research in the realms of Solana and Rust.
 
 My research interest spans broadly in computer security, including program analysis, AI security and Web3 Security.
 
 I’ve participated in a lot of CTF competitions. I am currently a member of [Nu1L Team](https://www.nu1l.com/) and [Straw Hat](https://strawhat.team/). I mainly solve Crypto and AI challenges in CTFs, I also developed a great interest in reverse engineering.
 
-I obtained my M.E. degree in Computer Science from [ShanghaiTech University](https://www.shanghaitech.edu.cn), advised by [Prof. Fu Song](http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/). 
+I obtained my M.S. degree in Computer Science from [ShanghaiTech University](https://www.shanghaitech.edu.cn), advised by [Prof. Fu Song](http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/). 
 
 <br>
 
