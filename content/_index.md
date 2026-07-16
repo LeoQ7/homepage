@@ -27,7 +27,7 @@ lightgallery: false
 
 ## Bio
 
-I am a Senior Security Researcher at [Sec3](https://www.sec3.dev/), where I focus on conducting in-depth security research in the realms of Solana and Rust.
+I am a security researcher at [depthfirst](https://depthfirst.com/). I previously worked at [Sec3](https://www.sec3.dev/) as a Senior Security Researcher, where I focus on conducting in-depth security research in the realms of Solana and Rust.
 
 My research interest spans broadly in computer security, including program analysis, AI security and Web3 Security.
 
@@ -41,11 +41,12 @@ I obtained my M.S. degree in Computer Science from [ShanghaiTech University](htt
 
 <style type="text/css">.date { width: 90px; font-family:Trebuchet MS; font-style: italic; float: left }</style>
 
+- <span class="date">July. 2026</span> I joined depthfirst as a full-time security researcher!
 - <span class="date">Aug. 2025</span> Nu1L team hit 4th at DEF CON CTF 2024 Final
 - <span class="date">Sep. 2024</span> I won first place in TON CTF
 - <span class="date">Feb. 2024</span> I won first place in zkCTF
-- <span class="date">May. 2023</span> I joined Sec3 as a full-time security researcher!
 
+<!-- - <span class="date">May. 2023</span> I joined Sec3 as a full-time security researcher! -->
 <!-- {{< detail "Load more">}}
 - <span class="date">Aug. 2024</span> Straw Hat team hit 5th again at DEF CON CTF 2024 Final
 - <span class="date">Aug. 2023</span> Straw Hat team hit 5th at DEF CON CTF 2023 Final

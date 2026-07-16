@@ -11,13 +11,13 @@ specialShowMod: true
 
 ### Email
 
-Work: <a href='javascript:void(0)' id='wm'>cTdAc2VjMy5kZXY=</a> \[[GPG](/files/sec3.gpg)\]
+Work: <a href='javascript:void(0)' id='wm'>cWlAZGVwdGhmaXJzdC5jb20=</a> \[[GPG](/files/depthfirst.gpg)\]
 
 Personal: <a href='javascript:void(0)' id='pm'>cTcxOTk4QGdtYWlsLmNvbQ==</a> \[[GPG](/files/gmail.gpg)\]
 
 {{< script >}}
 document.getElementById("wm").addEventListener("click", function(event) {
-  window.open(('ved.' + '3ce' + 's@' +  '7q:ot' + 'liam').split('').reverse().join(''), "_self");
+  window.open(('moc.ts' + 'rifhtped@' + 'iq:ot' + 'liam').split('').reverse().join(''), "_self");
 }, false);
 document.getElementById("pm").addEventListener("click", function(event) {
   window.open(('moc.l' + 'iamg' + '@8991' + '7q:ot' + 'liam').split('').reverse().join(''), "_self");
